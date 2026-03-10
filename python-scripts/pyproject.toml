@@ -8,7 +8,7 @@ dependencies = []
 
 [project.scripts]
 power-calc = "programs.power_flows.power_calculator:main"
-boost-val-calc = "programs.boost_converter_values.calculateValues:main"
+boost-val-calc = "programs.boost_converter.test:main"
 
 [tool.uv]
 package = true
